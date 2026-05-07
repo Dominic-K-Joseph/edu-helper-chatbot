@@ -25,9 +25,6 @@
         </div>
 
         <div class="chat-box">
-            <div id="typing" style="display:none; color:#6b7280; margin-top:10px;">
-                📘 EduHelperAgent is typing...
-            </div>
             @if (count(session('history', [])) > 0)
 
                 @foreach (session('history', []) as $chat)

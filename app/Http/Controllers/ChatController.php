@@ -49,7 +49,7 @@ class ChatController extends Controller
 
             $valid = false;
 
-            foreach ($allowedTopics as $topic) {
+            foreach ($allowedTopics as $topic) {    
 
                 if (str_contains($message, $topic)) {
                     $valid = true;
